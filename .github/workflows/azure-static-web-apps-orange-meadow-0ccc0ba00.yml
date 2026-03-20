@@ -44,3 +44,5 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_ORANGE_MEADOW_0CCC0BA00 }}
           action: "close"
+        env:
+          REACT_APP_API_URL: https://gateway.blackwave-f6885747.southeastasia.azurecontainerapps.io
